@@ -1,0 +1,12 @@
+import Option from "./components/Option.js";
+import Question from "./components/Question.js";
+import Quiz from "./components/Quiz.js";
+var op1 = new Option({ optionText: "2", isCorrect: true });
+var op2 = new Option({ optionText: "4", isCorrect: false });
+var op3 = new Option({ optionText: "3", isCorrect: false });
+var op4 = new Option({ optionText: "5", isCorrect: false });
+var question1 = new Question({ questionText: "what is 1+1 ?", points: 1, correctOptions: [op1], options: [op1, op2, op3, op4] });
+var quiz1 = new Quiz({ quizTitle: "quiz app", defaultPoints: 10, questions: [question1] });
+var quizForm = document.getElementById("quizAppForm");
+var rootDiv = document.getElementById("root");
+quiz1.mount(rootDiv);
