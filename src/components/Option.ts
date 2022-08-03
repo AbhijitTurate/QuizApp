@@ -1,8 +1,10 @@
 import { generateUniqueId } from "../../utils/generateUniqueId.js";
+import Question from "./Question.js";
 
 type OptionConfig ={
     optionText : string;
     isCorrect : boolean ;
+    // parentQues/tion : Question;
 }
 class Option {
     id: string;

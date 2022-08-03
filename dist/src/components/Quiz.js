@@ -11,18 +11,19 @@ import { generateUniqueId } from "../../utils/generateUniqueId.js";
 var Quiz = /** @class */ (function () {
     function Quiz(_a) {
         var quizTitle = _a.quizTitle, questions = _a.questions, defaultPoints = _a.defaultPoints;
+        var _this = this;
         this.isSubmitted = false;
         this.id = generateUniqueId({ prefix: "quiz" });
         this.quizTitle = quizTitle;
         this.questions = __spreadArray([], questions, true);
-        this.totalScore = this.questions.reduce(function (initialValue, question) {
+        this.totalPoints = this.questions.reduce(function (initialValue, question) {
             console.log("initial value", initialValue, question);
-            return 10;
+            return initialValue + _this.totalPoints;
         }, 0);
         this.defaultPoints = defaultPoints;
         // 1 run a function on all question and sum in constructor
         //  2 run a separate 
-        this.totalPoints = 0;
+        this.finalScore = 0;
     }
     Quiz.prototype.render = function () {
         var quizContainer = document.createElement("div");
@@ -42,6 +43,8 @@ var Quiz = /** @class */ (function () {
         submitbutton.classList.add("submitButton");
         quizTitle.innerText = this.quizTitle;
         submitbutton.innerText = "Submit Quiz";
+        // attaching event listener
+        quizForm.onsubmit = this.submitQuiz.bind(this);
         // Appending childs
         this.questions.forEach(function (question) {
             question.mount(quizForm);
@@ -49,17 +52,33 @@ var Quiz = /** @class */ (function () {
         quizForm.appendChild(submitbutton);
         quizContainer.appendChild(quizTitle);
         quizContainer.appendChild(quizForm);
-        // attach question container
         return quizContainer;
     };
     Quiz.prototype.mount = function (el) {
         console.log("in quiz mount");
         el.appendChild(this.render());
     };
-    Quiz.prototype.submitQuiz = function () {
+    Quiz.prototype.submitQuiz = function (event) {
+        if (confirm("do you wish to submit quiz?")) {
+            this.isSubmitted = true;
+            event.preventDefault();
+            console.log("Quiz is submitted");
+            this.questions.forEach(function (question) {
+                question.checkCorrectAnswers();
+            });
+            this.updateScore();
+        }
     };
     Quiz.prototype.updateScore = function () {
+        var _this = this;
+        this.questions.forEach(function (question) {
+            if (question.isAnsweredCorrectly) {
+                _this.finalScore = _this.finalScore + question.points;
+            }
+        });
+        console.log("Total score:", this.finalScore);
     };
     return Quiz;
 }());
 export default Quiz;
+//# sourceMappingURL=Quiz.js.map

@@ -12,7 +12,7 @@ type quizConfig ={
 class Quiz {
     id: string;
     totalPoints : number;
-    totalScore : number;
+    finalScore : number;
     isSubmitted : boolean = false;
     defaultPoints : number ; // User defined
     questions : Question[];
@@ -23,14 +23,14 @@ class Quiz {
         this.id = generateUniqueId({prefix : "quiz"})
         this.quizTitle = quizTitle;
         this.questions = [...questions];
-        this.totalScore= this.questions.reduce((initialValue, question) =>{
+        this.totalPoints= this.questions.reduce((initialValue, question) =>{
             console.log("initial value",initialValue , question);
-            return 10;
+            return initialValue+this.totalPoints;
         },0);
         this.defaultPoints = defaultPoints;
         // 1 run a function on all question and sum in constructor
         //  2 run a separate 
-        this.totalPoints = 0
+        this.finalScore = 0
     }
 
     render()
@@ -55,6 +55,8 @@ class Quiz {
         quizTitle.innerText = this.quizTitle;
         submitbutton.innerText = "Submit Quiz"
 
+          // attaching event listener
+          quizForm.onsubmit = this.submitQuiz.bind(this)
 
         // Appending childs
         this.questions.forEach((question)=>{
@@ -65,7 +67,8 @@ class Quiz {
 
         quizContainer.appendChild(quizTitle)
         quizContainer.appendChild(quizForm)
-        // attach question container
+
+      
         return quizContainer
         
     }
@@ -74,13 +77,30 @@ class Quiz {
         
         el.appendChild(this.render())
     }
-    submitQuiz()
-    {
 
+    submitQuiz(event :SubmitEvent)
+    {
+        if (confirm("do you wish to submit quiz?")) {
+            this.isSubmitted=true;
+            event.preventDefault()
+            console.log("Quiz is submitted");
+            
+            this.questions.forEach((question) => {
+                question.checkCorrectAnswers()
+            })
+            this.updateScore()
+        }
     }
     updateScore()
     {
-
+        this.questions.forEach((question) => {
+            if(question.isAnsweredCorrectly){
+                this.finalScore = this.finalScore + question.points
+            }
+           
+        })
+        console.log("Total score:",this.finalScore);
+        
     }
 
 }
