@@ -18,6 +18,9 @@ const quiz2op4 = new Option({optionText: "javastorm", isCorrect: true});
 const question2 = new Question({questionText : "what is full form of JS ?",points : 2 , correctOptions :[quiz2op3,quiz2op4],options : [quiz2op1,quiz2op2,quiz2op3,quiz2op4]});
 const quiz1 = new Quiz({quizTitle:"quiz app",defaultPoints :10 , questions : [question1,question2]})
 
+console.log("Quiz Structure:",JSON.stringify(quiz1));
+
+
 
 const rootDiv = document.getElementById("root")!
 
@@ -37,4 +40,5 @@ const num2 =[30,20,10]
 //     })
 // })
 quiz1.mount(rootDiv)
+
 

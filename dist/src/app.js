@@ -12,6 +12,7 @@ var quiz2op3 = new Option({ optionText: "javascript", isCorrect: true });
 var quiz2op4 = new Option({ optionText: "javastorm", isCorrect: true });
 var question2 = new Question({ questionText: "what is full form of JS ?", points: 2, correctOptions: [quiz2op3, quiz2op4], options: [quiz2op1, quiz2op2, quiz2op3, quiz2op4] });
 var quiz1 = new Quiz({ quizTitle: "quiz app", defaultPoints: 10, questions: [question1, question2] });
+console.log("Quiz Structure:", JSON.stringify(quiz1));
 var rootDiv = document.getElementById("root");
 var num1 = [10, 20, 30];
 var num2 = [30, 20, 10];
