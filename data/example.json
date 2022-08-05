@@ -1,35 +1,101 @@
 {
-    "name" : "Abhijit",
-    "surname" : "Turate",
-    "hobbies": [
+    "isSubmitted": false,
+    "id": "quiz-4minwiqfkir",
+    "quizTitle": "quiz app",
+    "questions": [
         {
-            "type": "indoor",
-            "value" : "Carrom"
+            "id": "que-ml030ocfubg",
+            "questionText": "what is 1+1 ?",
+            "points": 1,
+            "isAnswered": false,
+            "isAnsweredCorrectly": false,
+            "options": [
+                {
+                    "id": "Option-lbyi5yw1ezj",
+                    "optionText": "2",
+                    "isCorrect": true
+                },
+                {
+                    "id": "Option-5scdttj47qt",
+                    "optionText": "4",
+                    "isCorrect": false
+                },
+                {
+                    "id": "Option-xaeae7wtir",
+                    "optionText": "3",
+                    "isCorrect": false
+                },
+                {
+                    "id": "Option-ezchijy0a0j",
+                    "optionText": "5",
+                    "isCorrect": false
+                }
+            ],
+            "selectedOptions": [],
+            "correctOptions": [
+                {
+                    "id": "Option-lbyi5yw1ezj",
+                    "optionText": "2",
+                    "isCorrect": true
+                }
+            ],
+            "hasMultpleCorrectOptions": false
         },
         {
-            "type": "indoor",
-            "value" : "Chess"
-        },
-        {
-            "type": "outdoor",
-            "value" : "Cricket"
-        },
-          {
-            "type": "outdoor",
-            "value" : "Cricket"
+            "id": "que-o4wxpl3ss59",
+            "questionText": "what is full form of JS ?",
+            "points": 2,
+            "isAnswered": false,
+            "isAnsweredCorrectly": false,
+            "options": [
+                {
+                    "id": "Option-t3xg6wcch7l",
+                    "optionText": "Java Style",
+                    "isCorrect": false
+                },
+                {
+                    "id": "Option-nwrc5e8x42p",
+                    "optionText": "json script",
+                    "isCorrect": false
+                },
+                {
+                    "id": "Option-nw6gwqh59r",
+                    "optionText": "javascript",
+                    "isCorrect": true
+                },
+                {
+                    "id": "Option-yiizmozl52f",
+                    "optionText": "javastorm",
+                    "isCorrect": true
+                }
+            ],
+            "selectedOptions": [],
+            "correctOptions": [
+                {
+                    "id": "Option-nw6gwqh59r",
+                    "optionText": "javascript",
+                    "isCorrect": true
+                },
+                {
+                    "id": "Option-yiizmozl52f",
+                    "optionText": "javastorm",
+                    "isCorrect": true
+                }
+            ],
+            "hasMultpleCorrectOptions": true
         }
     ],
-    "address" : [
-        {
-            "type" : "Office",
-            "street" : "V S Marg",
-            "phone no" : [
-                {
-                    "phone no 1" : 23723182352,
-                    "phone no 2" : 1232163323
-                }
-               
-            ]
-        }
-    ]
+    "totalPoints": null,
+    "defaultPoints": 10,
+    "confirmModal": {
+        "id": "modal-0z7idjhl5yjo",
+        "isConfirmed": false,
+        "isCanceled": false,
+        "isDisplayed": false
+    },
+    "finalScore": 0,
+    "resultModal": {
+        "id": "modal-cjjmqhrymzj",
+        "resultScore": 0
+    }
 }
