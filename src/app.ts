@@ -18,27 +18,51 @@ const quiz2op4 = new Option({optionText: "javastorm", isCorrect: true});
 const question2 = new Question({questionText : "what is full form of JS ?",points : 2 , correctOptions :[quiz2op3,quiz2op4],options : [quiz2op1,quiz2op2,quiz2op3,quiz2op4]});
 const quiz1 = new Quiz({quizTitle:"quiz app",defaultPoints :10 , questions : [question1,question2]})
 
-console.log("Quiz Structure:",JSON.stringify(quiz1));
+ 
 
+const url = "https://abhijitturate.github.io/QuizApp/data/example.json"
+let quiz2 : Quiz 
 
+let question :Question
+// fetch(url)
+// .then((response) =>  response.json())
+// .then((data) => {
+
+//     const quizTitle = data.quizTitle;
+//     let jsonquestions: Question[] = data.questions;
+//     const defaultPoints = data.defaultPoints;
+//     let questionsArray : Question[] = []
+
+//     jsonquestions.forEach(element => {
+//         let questionText = element.questionText;
+//         let points = element.points;
+//         let options = element.options;
+//         let correctOptions = element.correctOptions;
+//         question = Object.assign(new Question({questionText, points ,options ,correctOptions}) , element)
+//         console.log("Question generated from json",question);
+//         questionsArray.push(question)
+      
+//     });
+ 
+   
+//     let questions = questionsArray
+
+//     data.questions= [...questions]
+  
+    
+//     quiz2 = Object.assign(new Quiz({quizTitle,questions,defaultPoints}), data)
+//     console.log("Quiz Object",quiz2);
+//     const rootDiv = document.getElementById("root")!
+//     // quiz2.mount(rootDiv)
+
+// })
+// console.log("Quiz Structure:",JSON.stringify(quiz1));
+
+// console.log("JSON",JSON.parse(JSON.stringify(quiz1)));
 
 const rootDiv = document.getElementById("root")!
-
-const num1=[10,20,30]
-const num2 =[30,20,10]
-
-// num1.forEach((number)=>{
-//     num2.forEach((num2)=>{
-       
-//         console.log(num2);
-        
-//         if(num2===number){
-//             console.log("element found");
-            
-//         }
-  
-//     })
-// })
 quiz1.mount(rootDiv)
+
+
 
 

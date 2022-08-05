@@ -51,18 +51,6 @@ var Question = /** @class */ (function () {
         this.isAnsweredCorrectly = this.selectedOptions.every(function (option) {
             return includesObject(_this.correctOptions, option, "id");
         });
-        // if (this.selectedOptions.length !== this.correctOptions.length) {
-        //     this.isAnsweredCorrectly= false;
-        //     return;
-        // }
-        //     this.selectedOptions.forEach((option) => {
-        //         try {
-        //             this.isAnsweredCorrectly = includesObject<Option>(this.correctOptions, option, "id") as boolean;
-        //         }
-        //         catch (err) {
-        //             console.log("Error is thrown");
-        //         }     
-        //     })
         console.log("isAnsweredCorrectly :", this.isAnsweredCorrectly);
         this.updateIsAnswered();
     };

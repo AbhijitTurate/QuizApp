@@ -29,8 +29,8 @@ class Quiz {
         this.quizTitle = quizTitle;
         this.questions = [...questions];
         this.totalPoints = this.questions.reduce((initialValue, question) => {
-            console.log("initial value", initialValue, question);
-            return initialValue + this.totalPoints;
+
+            return initialValue + question.points;
         }, 0);
         this.defaultPoints = defaultPoints;
         this.confirmModal = new ConfirmModal();
@@ -87,57 +87,27 @@ class Quiz {
     }
 
     submitQuiz(event: SubmitEvent) {
-        event?.preventDefault()
-        const confirmModal = new ConfirmModal();
-        const rootDiv = document.getElementById("root")!
+        // this.updateScore();
+        // event?.preventDefault()
+        // const confirmModal = new ConfirmModal();
+        // const rootDiv = document.getElementById("root")!
+
+        // confirmModal.mount(rootDiv)
+        if (confirm("do you wish to submit quiz?")) {
+            this.isSubmitted = true;
+            console.log("Quiz is submitted");
+            this.questions.forEach((question) => {
+                question.checkCorrectAnswers()
+            })
+            event.preventDefault()
+            this.updateScore()
+            const resultModal = new ResultModal(this.finalScore);
+            const rootDiv = document.getElementById("root")!
+            resultModal.mount(rootDiv)
+        }else{
+            event.preventDefault()
+        }
        
-        confirmModal.mount(rootDiv)
-
-        
-        if(confirmModal.isConfirmed){
-            console.log("isConfirmed");
-            
-        }
-        else{
-            console.log("NotConfirmed");
-        }
-        
-
-        // new Promise((reject,resolve) =>{
-        //     resolve()
-        
-        //     // reject("Modal not found")
-        // })
-        // .then(() => {
-        //     console.log("modal is mounted");
-            
-        // })
-        // console.log("after mounting");
-        
-
-        //    this.modal = new Modal("confirm")
-        //     console.log("after initializing Modal object");
-
-        // event.preventDefault()
-        // if (confirm("do you wish to submit quiz?")) {
-
-        //     console.log("returned true",this.modal);
-
-        //     this.isSubmitted=true;
-        //     event.preventDefault()
-        //     console.log("Quiz is submitted");
-
-        //     this.questions.forEach((question) => {
-        //         question.checkCorrectAnswers()
-        //     })
-        //     this.updateScore();
-        //     // 
-        //     // this.modal("confirm")
-        //     this.modal= new Modal("result",this.finalScore)
-
-        // //    this.resultModal = new ResultModal(this.finalScore);
-        // //     this.resultModal.mount()
-        // }
     }
     updateScore() {
         this.questions.forEach((question) => {
