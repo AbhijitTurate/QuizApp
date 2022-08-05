@@ -1,0 +1,35 @@
+{
+    "name" : "Abhijit",
+    "surname" : "Turate",
+    "hobbies": [
+        {
+            "type": "indoor",
+            "value" : "Carrom"
+        },
+        {
+            "type": "indoor",
+            "value" : "Chess"
+        },
+        {
+            "type": "outdoor",
+            "value" : "Cricket"
+        },
+          {
+            "type": "outdoor",
+            "value" : "Cricket"
+        }
+    ],
+    "address" : [
+        {
+            "type" : "Office",
+            "street" : "V S Marg",
+            "phone no" : [
+                {
+                    "phone no 1" : 23723182352,
+                    "phone no 2" : 1232163323
+                }
+               
+            ]
+        }
+    ]
+}
