@@ -1,3 +1,12 @@
+var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
+    if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {
+        if (ar || !(i in from)) {
+            if (!ar) ar = Array.prototype.slice.call(from, 0, i);
+            ar[i] = from[i];
+        }
+    }
+    return to.concat(ar || Array.prototype.slice.call(from));
+};
 import Option from "./components/Option.js";
 import Question from "./components/Question.js";
 import Quiz from "./components/Quiz.js";
@@ -15,31 +24,31 @@ var quiz1 = new Quiz({ quizTitle: "quiz app", defaultPoints: 10, questions: [que
 var url = "https://abhijitturate.github.io/QuizApp/data/example.json";
 var quiz2;
 var question;
-// fetch(url)
-// .then((response) =>  response.json())
-// .then((data) => {
-//     const quizTitle = data.quizTitle;
-//     let jsonquestions: Question[] = data.questions;
-//     const defaultPoints = data.defaultPoints;
-//     let questionsArray : Question[] = []
-//     jsonquestions.forEach(element => {
-//         let questionText = element.questionText;
-//         let points = element.points;
-//         let options = element.options;
-//         let correctOptions = element.correctOptions;
-//         question = Object.assign(new Question({questionText, points ,options ,correctOptions}) , element)
-//         console.log("Question generated from json",question);
-//         questionsArray.push(question)
-//     });
-//     let questions = questionsArray
-//     data.questions= [...questions]
-//     quiz2 = Object.assign(new Quiz({quizTitle,questions,defaultPoints}), data)
-//     console.log("Quiz Object",quiz2);
-//     const rootDiv = document.getElementById("root")!
-//     // quiz2.mount(rootDiv)
-// })
+fetch(url)
+    .then(function (response) { return response.json(); })
+    .then(function (data) {
+    var quizTitle = data.quizTitle;
+    var jsonquestions = data.questions;
+    var defaultPoints = data.defaultPoints;
+    var questionsArray = [];
+    jsonquestions.forEach(function (element) {
+        var questionText = element.questionText;
+        var points = element.points;
+        var options = element.options;
+        var correctOptions = element.correctOptions;
+        question = Object.assign(new Question({ questionText: questionText, points: points, options: options, correctOptions: correctOptions }), element);
+        console.log("Question generated from json", question);
+        questionsArray.push(question);
+    });
+    var questions = questionsArray;
+    data.questions = __spreadArray([], questions, true);
+    quiz2 = Object.assign(new Quiz({ quizTitle: quizTitle, questions: questions, defaultPoints: defaultPoints }), data);
+    console.log("Quiz Object", quiz2);
+    var rootDiv = document.getElementById("root");
+    quiz2.mount(rootDiv);
+});
 // console.log("Quiz Structure:",JSON.stringify(quiz1));
 // console.log("JSON",JSON.parse(JSON.stringify(quiz1)));
 var rootDiv = document.getElementById("root");
-quiz1.mount(rootDiv);
+// quiz1.mount(rootDiv)
 //# sourceMappingURL=app.js.map
