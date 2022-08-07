@@ -1,0 +1,59 @@
+{
+    "isSubmitted": false,
+    "id": "quiz-4minwiqfkir",
+    "quizTitle": "Fundamentals of javascript",
+    "questions": [
+        {
+            "id": "",
+            "questionText": "what is full form of JS ?",
+            "points": 2,
+            "isAnswered": false,
+            "isAnsweredCorrectly": false,
+            "options": [
+                {
+                    "id": "",
+                    "optionText": "Java Style",
+                    "isCorrect": false
+                },
+                {
+                    "id": "",
+                    "optionText": "json script",
+                    "isCorrect": false
+                },
+                {
+                    "id": "",
+                    "optionText": "javascript",
+                    "isCorrect": true
+                },
+                {
+                    "id": "",
+                    "optionText": "javastorm",
+                    "isCorrect": false
+                }
+            ],
+            "selectedOptions": [],
+            "correctOptions": [
+                {
+                    "id": "",
+                    "optionText": "javascript",
+                    "isCorrect": true
+                }
+            ],
+            "hasMultpleCorrectOptions": false
+        }
+
+    ],
+    "totalPoints": null,
+    "defaultPoints": 10,
+    "confirmModal": {
+        "id": "",
+        "isConfirmed": false,
+        "isCanceled": false,
+        "isDisplayed": false
+    },
+    "finalScore": 0,
+    "resultModal": {
+        "id": "",
+        "resultScore": 0
+    }
+}
