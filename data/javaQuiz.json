@@ -1,0 +1,211 @@
+{
+    "isSubmitted": false,
+    "id": "",
+    "quizTitle": "Fundamentals of JAVA",
+    "questions": [
+        {
+            "id": "",
+            "questionText": "Which component is used to compile, debug and execute the java programs?",
+            "points": 1,
+            "isAnswered": false,
+            "isAnsweredCorrectly": false,
+            "options": [
+                {
+                    "id": "",
+                    "optionText": "JRE",
+                    "isCorrect": false
+                },
+                {
+                    "id": "",
+                    "optionText": "JDK",
+                    "isCorrect": true
+                },
+                {
+                    "id": "",
+                    "optionText": "JIT",
+                    "isCorrect": false
+                },
+                {
+                    "id": "",
+                    "optionText": "JVM",
+                    "isCorrect": false
+                }
+            ],
+            "selectedOptions": [],
+            "correctOptions": [
+                {
+                    "id": "",
+                    "optionText": "JDK",
+                    "isCorrect": true
+                }
+            ],
+            "hasMultpleCorrectOptions": false
+        },
+        {
+            "id": "",
+            "questionText": "Which one of the following is not a Java feature?",
+            "points": 1,
+            "isAnswered": false,
+            "isAnsweredCorrectly": false,
+            "options": [
+                {
+                    "id": "",
+                    "optionText": "Object-oriented",
+                    "isCorrect": false
+                },
+                {
+                    "id": "",
+                    "optionText": "use of pointers",
+                    "isCorrect": true
+                },
+                {
+                    "id": "",
+                    "optionText": "Portable",
+                    "isCorrect": false
+                },
+                {
+                    "id": "",
+                    "optionText": " Dynamic and Extensible",
+                    "isCorrect": false
+                }
+            ],
+            "selectedOptions": [],
+            "correctOptions": [
+                {
+                    "id": "",
+                    "optionText": "use of pointers",
+                    "isCorrect": true
+                }
+            ],
+            "hasMultpleCorrectOptions": false
+        },
+        {
+            "id": "",
+            "questionText": "Which of these cannot be used for a variable name in Java?",
+            "points": 1,
+            "isAnswered": false,
+            "isAnsweredCorrectly": false,
+            "options": [
+                {
+                    "id": "",
+                    "optionText": " identifier & keyword",
+                    "isCorrect": false
+                },
+                {
+                    "id": "",
+                    "optionText": "identifier",
+                    "isCorrect": false
+                },
+                {
+                    "id": "",
+                    "optionText": "keyword",
+                    "isCorrect": true
+                },
+                {
+                    "id": "",
+                    "optionText": "none",
+                    "isCorrect": false
+                }
+            ],
+            "selectedOptions": [],
+            "correctOptions": [
+                {
+                    "id": "",
+                    "optionText": "keyword",
+                    "isCorrect": true
+                }
+            ],
+            "hasMultpleCorrectOptions": false
+        },
+        {
+            "id": "",
+            "questionText": "What is the extension of java code files?",
+            "points": 1,
+            "isAnswered": false,
+            "isAnsweredCorrectly": false,
+            "options": [
+                {
+                    "id": "",
+                    "optionText": ".txt",
+                    "isCorrect": false
+                },
+                {
+                    "id": "",
+                    "optionText": ".c",
+                    "isCorrect": false
+                },
+                {
+                    "id": "",
+                    "optionText": ".java",
+                    "isCorrect": true
+                },
+                {
+                    "id": "",
+                    "optionText": ".j",
+                    "isCorrect": false
+                }
+            ],
+            "selectedOptions": [],
+            "correctOptions": [
+                {
+                    "id": "",
+                    "optionText": ".java",
+                    "isCorrect": true
+                }
+            ],
+            "hasMultpleCorrectOptions": false
+        },
+        {
+            "id": "",
+            "questionText": "Which of the following is not an OOPS concept in Java?",
+            "points": 1,
+            "isAnswered": false,
+            "isAnsweredCorrectly": false,
+            "options": [
+                {
+                    "id": "",
+                    "optionText": "inheritence",
+                    "isCorrect": false
+                },
+                {
+                    "id": "",
+                    "optionText": "Polymorphism",
+                    "isCorrect": false
+                },
+                {
+                    "id": "",
+                    "optionText": "Compilation",
+                    "isCorrect": true
+                },
+                {
+                    "id": "",
+                    "optionText": "Encapsulation",
+                    "isCorrect": true
+                }
+            ],
+            "selectedOptions": [],
+            "correctOptions": [
+                {
+                    "id": "",
+                    "optionText": "Compilation",
+                    "isCorrect": true
+                }
+            ],
+            "hasMultpleCorrectOptions": false
+        }
+
+    ],
+    "totalPoints": null,
+    "defaultPoints": 10,
+    "confirmModal": {
+        "id": "",
+        "isConfirmed": false,
+        "isCanceled": false,
+        "isDisplayed": false
+    },
+    "finalScore": 0,
+    "resultModal": {
+        "id": "",
+        "resultScore": 0
+    }
+}
