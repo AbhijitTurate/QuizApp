@@ -1,0 +1,221 @@
+{
+    "isSubmitted": false,
+    "id": "",
+    "quizTitle": "Fundamentals of typescript",
+    "questions": [
+        {
+            "id": "",
+            "questionText": " What are the built-in types in Typescript?",
+            "points": 1,
+            "isAnswered": false,
+            "isAnsweredCorrectly": false,
+            "options": [
+                {
+                    "id": "",
+                    "optionText": "Number type",
+                    "isCorrect": false
+                },
+                {
+                    "id": "",
+                    "optionText": "Boolean type",
+                    "isCorrect": false
+                },
+                {
+                    "id": "",
+                    "optionText": "Null type",
+                    "isCorrect": false
+                },
+                {
+                    "id": "",
+                    "optionText": "All of the above",
+                    "isCorrect": true
+                }
+            ],
+            "selectedOptions": [],
+            "correctOptions": [
+                {
+                    "id": "",
+                    "optionText": "All of the above",
+                    "isCorrect": true
+                }
+            ],
+            "hasMultpleCorrectOptions": false
+        },
+        {
+            "id": "",
+            "questionText": "Which object-oriented terms are supported by TypeScript?",
+            "points": 1,
+            "isAnswered": false,
+            "isAnsweredCorrectly": false,
+            "options": [
+                {
+                    "id": "",
+                    "optionText": "Interfaces",
+                    "isCorrect": true
+                },
+                {
+                    "id": "",
+                    "optionText": "Data Types",
+                    "isCorrect": true
+                },
+                {
+                    "id": "",
+                    "optionText": "Member functions",
+                    "isCorrect": true
+                },
+                {
+                    "id": "",
+                    "optionText": "None",
+                    "isCorrect": false
+                }
+            ],
+            "selectedOptions": [],
+            "correctOptions": [
+                {
+                    "id": "",
+                    "optionText": "Interfaces",
+                    "isCorrect": true
+                },
+                {
+                    "id": "",
+                    "optionText": "Data Types",
+                    "isCorrect": true
+                },
+                {
+                    "id": "",
+                    "optionText": "Member functions",
+                    "isCorrect": true
+                }
+            ],
+            "hasMultpleCorrectOptions": true
+        },
+        {
+            "id": "",
+            "questionText": "........are the way to organize code in typescript",
+            "points": 1,
+            "isAnswered": false,
+            "isAnsweredCorrectly": false,
+            "options": [
+                {
+                    "id": "",
+                    "optionText": "Modules",
+                    "isCorrect": true
+                },
+                {
+                    "id": "",
+                    "optionText": "classes",
+                    "isCorrect": false
+                },
+                {
+                    "id": "",
+                    "optionText": "method",
+                    "isCorrect": false
+                },
+                {
+                    "id": "",
+                    "optionText": "Arrow",
+                    "isCorrect": false
+                }
+            ],
+            "selectedOptions": [],
+            "correctOptions": [
+                {
+                    "id": "",
+                    "optionText": "Modules",
+                    "isCorrect": true
+                }
+            ],
+            "hasMultpleCorrectOptions": false
+        },
+        {
+            "id": "",
+            "questionText": "Which are the different Data Types supported by Typescript?",
+            "points": 1,
+            "isAnswered": false,
+            "isAnsweredCorrectly": false,
+            "options": [
+                {
+                    "id": "",
+                    "optionText": " Boolean var bValue: boolean = false",
+                    "isCorrect": false
+                },
+                {
+                    "id": "",
+                    "optionText": "Number var age: number = 16",
+                    "isCorrect": false
+                },
+                {
+                    "id": "",
+                    "optionText": "String var name: string = 'jon'",
+                    "isCorrect": true
+                },
+                {
+                    "id": "",
+                    "optionText": " All of the above mentioned",
+                    "isCorrect": true
+                }
+            ],
+            "selectedOptions": [],
+            "correctOptions": [
+                {
+                    "id": "",
+                    "optionText": " All of the above mentioned",
+                    "isCorrect": true
+                }
+            ],
+            "hasMultpleCorrectOptions": false
+        },
+        {
+            "id": "",
+            "questionText": "Which of the following is a filename extension for typescript?",
+            "points": 1,
+            "isAnswered": false,
+            "isAnsweredCorrectly": false,
+            "options": [
+                {
+                    "id": "",
+                    "optionText": ".ts",
+                    "isCorrect": true
+                },
+                {
+                    "id": "",
+                    "optionText": ".nod",
+                    "isCorrect": false
+                },
+                {
+                    "id": "",
+                    "optionText": ".txt",
+                    "isCorrect": false
+                },
+                {
+                    "id": "",
+                    "optionText": ".tt",
+                    "isCorrect": false
+                }
+            ],
+            "selectedOptions": [],
+            "correctOptions": [
+                {
+                    "id": "",
+                    "optionText": ".ts",
+                    "isCorrect": true
+                }  
+            ],
+            "hasMultpleCorrectOptions": false
+        }
+
+    ],
+    "totalPoints": null,
+    "defaultPoints": 10,
+    "confirmModal": {
+        "id": "",
+        "isConfirmed": false,
+        "isCanceled": false,
+        "isDisplayed": false
+    },
+    "finalScore": 0,
+    "resultModal": {
+        "id": "",
+        "resultScore": 0
+    }
+}
