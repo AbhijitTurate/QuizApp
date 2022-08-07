@@ -180,7 +180,7 @@
                 {
                     "id": "",
                     "optionText": "Encapsulation",
-                    "isCorrect": true
+                    "isCorrect": false
                 }
             ],
             "selectedOptions": [],
