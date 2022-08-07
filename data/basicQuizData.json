@@ -6,7 +6,7 @@
         {
             "id": "",
             "questionText": "what is full form of JS ?",
-            "points": 2,
+            "points": 1,
             "isAnswered": false,
             "isAnsweredCorrectly": false,
             "options": [
@@ -40,6 +40,44 @@
                 }
             ],
             "hasMultpleCorrectOptions": false
+        },
+        {
+            "id": "",
+            "questionText": "Which of the following methods is used to access HTML elements using Javascript?",
+            "points": 2,
+            "isAnswered": false,
+            "isAnsweredCorrectly": false,
+            "options": [
+                {
+                    "id": "",
+                    "optionText": "getElementById()",
+                    "isCorrect": true
+                },
+                {
+                    "id": "",
+                    "optionText": "getElementByClassName()",
+                    "isCorrect": true
+                },
+                {
+                    "id": "",
+                    "optionText": "getElement()",
+                    "isCorrect": false
+                },
+                {
+                    "id": "",
+                    "optionText": "None",
+                    "isCorrect": false
+                }
+            ],
+            "selectedOptions": [],
+            "correctOptions": [
+                {
+                    "id": "",
+                    "optionText": "javascript",
+                    "isCorrect": true
+                }
+            ],
+            "hasMultpleCorrectOptions": true
         }
 
     ],
