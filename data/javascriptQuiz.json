@@ -73,7 +73,12 @@
             "correctOptions": [
                 {
                     "id": "",
-                    "optionText": "javascript",
+                    "optionText": "getElementById()",
+                    "isCorrect": true
+                },
+                {
+                    "id": "",
+                    "optionText": "getElementByClassName()",
                     "isCorrect": true
                 }
             ],
@@ -111,7 +116,7 @@
             "correctOptions": [
                 {
                     "id": "",
-                    "optionText": "javascript",
+                    "optionText": "const",
                     "isCorrect": true
                 }
             ],
@@ -149,7 +154,7 @@
             "correctOptions": [
                 {
                     "id": "",
-                    "optionText": "javascript",
+                    "optionText": "the contents are display by non-JS based browsers",
                     "isCorrect": true
                 }
             ],
@@ -187,7 +192,7 @@
             "correctOptions": [
                 {
                     "id": "",
-                    "optionText": "javascript",
+                    "optionText": "stringify()",
                     "isCorrect": true
                 }
             ],
