@@ -147,7 +147,7 @@
                 {
                     "id": "",
                     "optionText": "String var name: string = 'jon'",
-                    "isCorrect": true
+                    "isCorrect": false
                 },
                 {
                     "id": "",

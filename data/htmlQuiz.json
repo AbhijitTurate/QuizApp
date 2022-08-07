@@ -1,33 +1,33 @@
 {
     "isSubmitted": false,
     "id": "",
-    "quizTitle": "Fundamentals of CSS",
+    "quizTitle": "Fundamentals of HTML",
     "questions": [
         {
             "id": "",
-            "questionText": "Which of the below is the abbreviation of CSS ?",
+            "questionText": "Describe the purpose of the <!DOCTYPE> declaration.",
             "points": 1,
             "isAnswered": false,
             "isAnsweredCorrectly": false,
             "options": [
                 {
                     "id": "",
-                    "optionText": "Cascade sheets style",
+                    "optionText": "Refers the browser to another page upon loading.",
                     "isCorrect": false
                 },
                 {
                     "id": "",
-                    "optionText": "Color and style sheets",
-                    "isCorrect": false
-                },
-                {
-                    "id": "",
-                    "optionText": "Cascading style sheets",
+                    "optionText": "Informs the browser of the document's HTML version.",
                     "isCorrect": true
                 },
                 {
                     "id": "",
-                    "optionText": "Coded Style Sheet",
+                    "optionText": "Signals a comment in the code.",
+                    "isCorrect": false
+                },
+                {
+                    "id": "",
+                    "optionText": "None of the above; this is not a valid HTML element.",
                     "isCorrect": false
                 }
             ],
@@ -35,7 +35,7 @@
             "correctOptions": [
                 {
                     "id": "",
-                    "optionText": "Cascading style sheets",
+                    "optionText": "Informs the browser of the document's HTML version.",
                     "isCorrect": true
                 }
             ],
@@ -43,37 +43,37 @@
         },
         {
             "id": "",
-            "questionText": "Which of the following is the correct syntax to add the external stylesheet in CSS?",
+            "questionText": "Describe the purpose of the <html> element.",
             "points": 1,
             "isAnswered": false,
             "isAnsweredCorrectly": false,
             "options": [
                 {
                     "id": "",
-                    "optionText": "<style src = quiz.css>",
+                    "optionText": "Tells the browser to ask the server for another HTML page.",
                     "isCorrect": false
                 },
                 {
                     "id": "",
-                    "optionText": "<style source = quiz.css>",
+                    "optionText": "Comments out the HTML code in between.",
                     "isCorrect": false
                 },
                 {
                     "id": "",
-                    "optionText": "<stylesheet> quiz.css </stylesheet>",
-                    "isCorrect": false
-                },
-                {
-                    "id": "",
-                    "optionText": "<link rel='stylesheet' type='quiz/css' href='quiz.css'>",
+                    "optionText": "Denotes the starting and ending points of the HTML document.",
                     "isCorrect": true
+                },
+                {
+                    "id": "",
+                    "optionText": "None of the above.",
+                    "isCorrect": false
                 }
             ],
             "selectedOptions": [],
             "correctOptions": [
                 {
                     "id": "",
-                    "optionText": "<link rel='stylesheet' type='quiz/css' href='quiz.css'>",
+                    "optionText": "Denotes the starting and ending points of the HTML document.",
                     "isCorrect": true
                 }
             ],
@@ -81,37 +81,37 @@
         },
         {
             "id": "",
-            "questionText": "Which of the below CSS properties is used to change the background color of CSS ?",
+            "questionText": "How can a datatype be declared to be a constant type?",
             "points": 1,
             "isAnswered": false,
             "isAnsweredCorrectly": false,
             "options": [
                 {
                     "id": "",
-                    "optionText": "bg color",
-                    "isCorrect": false
-                },
-                {
-                    "id": "",
-                    "optionText": "color-background",
-                    "isCorrect": false
-                },
-                {
-                    "id": "",
-                    "optionText": "color",
-                    "isCorrect": false
-                },
-                {
-                    "id": "",
-                    "optionText": "background-color",
+                    "optionText": "const",
                     "isCorrect": true
+                },
+                {
+                    "id": "",
+                    "optionText": "let",
+                    "isCorrect": false
+                },
+                {
+                    "id": "",
+                    "optionText": "var",
+                    "isCorrect": false
+                },
+                {
+                    "id": "",
+                    "optionText": "constant",
+                    "isCorrect": false
                 }
             ],
             "selectedOptions": [],
             "correctOptions": [
                 {
                     "id": "",
-                    "optionText": "background-color",
+                    "optionText": "const",
                     "isCorrect": true
                 }
             ],
@@ -119,37 +119,27 @@
         },
         {
             "id": "",
-            "questionText": "Which of the below CSS class is used to change the text color of CSS ?",
+            "questionText": "It is impossible to validate HTML to check if it is written correctly.",
             "points": 1,
             "isAnswered": false,
             "isAnsweredCorrectly": false,
             "options": [
                 {
                     "id": "",
-                    "optionText": "bg color",
+                    "optionText": "TRUE",
                     "isCorrect": false
                 },
                 {
                     "id": "",
-                    "optionText": "color-background",
-                    "isCorrect": false
-                },
-                {
-                    "id": "",
-                    "optionText": "color",
+                    "optionText": "FALSE",
                     "isCorrect": true
-                },
-                {
-                    "id": "",
-                    "optionText": "background-color",
-                    "isCorrect": false
                 }
             ],
             "selectedOptions": [],
             "correctOptions": [
                 {
                     "id": "",
-                    "optionText": "color",
+                    "optionText": "FALSE",
                     "isCorrect": true
                 }
             ],
@@ -157,29 +147,19 @@
         },
         {
             "id": "",
-            "questionText": "How do we set the default width of the font in CSS ?",
+            "questionText": "The <th> element denotes a heading cell within a table.",
             "points": 1,
             "isAnswered": false,
             "isAnsweredCorrectly": false,
             "options": [
                 {
                     "id": "",
-                    "optionText": "font-stretch",
+                    "optionText": "TRUE",
                     "isCorrect": true
                 },
                 {
                     "id": "",
-                    "optionText": "font-weight",
-                    "isCorrect": false
-                },
-                {
-                    "id": "",
-                    "optionText": "text-transform",
-                    "isCorrect": false
-                },
-                {
-                    "id": "",
-                    "optionText": "font-variant",
+                    "optionText": "FALSE",
                     "isCorrect": false
                 }
             ],
@@ -187,9 +167,9 @@
             "correctOptions": [
                 {
                     "id": "",
-                    "optionText": "font-stretch",
+                    "optionText": "TRUE",
                     "isCorrect": true
-                }   
+                }
             ],
             "hasMultpleCorrectOptions": false
         }
