@@ -1,0 +1,211 @@
+{
+    "isSubmitted": false,
+    "id": "",
+    "quizTitle": "Fundamentals of CSS",
+    "questions": [
+        {
+            "id": "",
+            "questionText": "Which of the below is the abbreviation of CSS ?",
+            "points": 1,
+            "isAnswered": false,
+            "isAnsweredCorrectly": false,
+            "options": [
+                {
+                    "id": "",
+                    "optionText": "Cascade sheets style",
+                    "isCorrect": false
+                },
+                {
+                    "id": "",
+                    "optionText": "Color and style sheets",
+                    "isCorrect": false
+                },
+                {
+                    "id": "",
+                    "optionText": "Cascading style sheets",
+                    "isCorrect": true
+                },
+                {
+                    "id": "",
+                    "optionText": "Coded Style Sheet",
+                    "isCorrect": false
+                }
+            ],
+            "selectedOptions": [],
+            "correctOptions": [
+                {
+                    "id": "",
+                    "optionText": "Cascading style sheets",
+                    "isCorrect": true
+                }
+            ],
+            "hasMultpleCorrectOptions": false
+        },
+        {
+            "id": "",
+            "questionText": "Which of the following is the correct syntax to add the external stylesheet in CSS?",
+            "points": 1,
+            "isAnswered": false,
+            "isAnsweredCorrectly": false,
+            "options": [
+                {
+                    "id": "",
+                    "optionText": "<style src = quiz.css>",
+                    "isCorrect": false
+                },
+                {
+                    "id": "",
+                    "optionText": "<style source = quiz.css>",
+                    "isCorrect": false
+                },
+                {
+                    "id": "",
+                    "optionText": "<stylesheet> quiz.css </stylesheet>",
+                    "isCorrect": false
+                },
+                {
+                    "id": "",
+                    "optionText": "<link rel='stylesheet' type='quiz/css' href='quiz.css'>",
+                    "isCorrect": true
+                }
+            ],
+            "selectedOptions": [],
+            "correctOptions": [
+                {
+                    "id": "",
+                    "optionText": "<link rel='stylesheet' type='quiz/css' href='quiz.css'>",
+                    "isCorrect": true
+                }
+            ],
+            "hasMultpleCorrectOptions": false
+        },
+        {
+            "id": "",
+            "questionText": "Which of the below CSS properties is used to change the background color of CSS ?",
+            "points": 1,
+            "isAnswered": false,
+            "isAnsweredCorrectly": false,
+            "options": [
+                {
+                    "id": "",
+                    "optionText": "bg color",
+                    "isCorrect": false
+                },
+                {
+                    "id": "",
+                    "optionText": "color-background",
+                    "isCorrect": false
+                },
+                {
+                    "id": "",
+                    "optionText": "color",
+                    "isCorrect": false
+                },
+                {
+                    "id": "",
+                    "optionText": "background-color",
+                    "isCorrect": true
+                }
+            ],
+            "selectedOptions": [],
+            "correctOptions": [
+                {
+                    "id": "",
+                    "optionText": "background-color",
+                    "isCorrect": true
+                }
+            ],
+            "hasMultpleCorrectOptions": false
+        },
+        {
+            "id": "",
+            "questionText": "Which of the below CSS class is used to change the text color of CSS ?",
+            "points": 1,
+            "isAnswered": false,
+            "isAnsweredCorrectly": false,
+            "options": [
+                {
+                    "id": "",
+                    "optionText": "bg color",
+                    "isCorrect": false
+                },
+                {
+                    "id": "",
+                    "optionText": "color-background",
+                    "isCorrect": false
+                },
+                {
+                    "id": "",
+                    "optionText": "color",
+                    "isCorrect": true
+                },
+                {
+                    "id": "",
+                    "optionText": "background-color",
+                    "isCorrect": false
+                }
+            ],
+            "selectedOptions": [],
+            "correctOptions": [
+                {
+                    "id": "",
+                    "optionText": "color",
+                    "isCorrect": true
+                }
+            ],
+            "hasMultpleCorrectOptions": false
+        },
+        {
+            "id": "",
+            "questionText": "How do we set the default width of the font in CSS ?",
+            "points": 1,
+            "isAnswered": false,
+            "isAnsweredCorrectly": false,
+            "options": [
+                {
+                    "id": "",
+                    "optionText": "font-stretch",
+                    "isCorrect": true
+                },
+                {
+                    "id": "",
+                    "optionText": "font-weight",
+                    "isCorrect": false
+                },
+                {
+                    "id": "",
+                    "optionText": "text-transform",
+                    "isCorrect": false
+                },
+                {
+                    "id": "",
+                    "optionText": "font-variant",
+                    "isCorrect": false
+                }
+            ],
+            "selectedOptions": [],
+            "correctOptions": [
+                {
+                    "id": "",
+                    "optionText": "font-stretch",
+                    "isCorrect": true
+                }   
+            ],
+            "hasMultpleCorrectOptions": false
+        }
+
+    ],
+    "totalPoints": null,
+    "defaultPoints": 10,
+    "confirmModal": {
+        "id": "",
+        "isConfirmed": false,
+        "isCanceled": false,
+        "isDisplayed": false
+    },
+    "finalScore": 0,
+    "resultModal": {
+        "id": "",
+        "resultScore": 0
+    }
+}
