@@ -1,22 +1,22 @@
 {
     "isSubmitted": false,
-    "id": "quiz-4minwiqfkir",
+    "id": "",
     "quizTitle": "quiz app",
     "questions": [
         {
-            "id": "que-ml030ocfubg",
+            "id": "",
             "questionText": "what is 1+1 ?",
             "points": 1,
             "isAnswered": false,
             "isAnsweredCorrectly": false,
             "options": [
                 {
-                    "id": "Option-lbyi5yw1ezj",
+                    "id": "",
                     "optionText": "2",
                     "isCorrect": true
                 },
                 {
-                    "id": "Option-5scdttj47qt",
+                    "id": "",
                     "optionText": "4",
                     "isCorrect": false
                 },
@@ -34,7 +34,7 @@
             "selectedOptions": [],
             "correctOptions": [
                 {
-                    "id": "Option-lbyi5yw1ezj",
+                    "id": "",
                     "optionText": "2",
                     "isCorrect": true
                 }
